@@ -1,3 +1,4 @@
 function enviar(){
-    console.log("Mensagem enviada com sucesso!")
+    let resposta = "Requisição enviadas";
+    document.getElementById("mensagem").innerHTML = "Requisição enviada";   
 }
