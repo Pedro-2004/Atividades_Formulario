@@ -1,5 +1,6 @@
 body{
-      margin: 0;
+      background-color: black;
+      margin: 0px;
       padding: 0px; 
 }
 
@@ -28,12 +29,17 @@ body{
 }
 
 #Campo_Preencher{
+    font-weight: bold;
     margin-top: 20px;
     display: flex;
     flex-direction:column;
     gap: 20px;
     width: 160px;
     margin-left: 15px;
+}
+
+#Campo_Preencher input::placeholder{
+    color:black;
 }
 
 #Button_Enviar{
